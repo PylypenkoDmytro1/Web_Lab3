@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/general/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.text-box {
+    font-family: 'Eczar', serif;
+    font-size: 150%;
+    line-height: 1.5em;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.text-box h3 {
+    color: white;
+    padding: 0px;
+}
+
+.text-box h2 {
+    margin-bottom: 5px;
+}
+
+.text-box a {
+    color: rgb(175, 137, 101);
+    text-decoration: none;
+}
+
+.text-box hr {
+    color: rgb(181, 189, 178);
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin: 0px;
+}
+
+.image-list {
+    list-style: none;
+}
+
+.image-list li {
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.image-list img {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.image-border {
+    background-color: rgba(20, 20, 20, 0.9);
+    width: 400px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.itemX {
+    width: 256px;
+    height: 122px;
+    padding: 10px 50px 0px;
+}
