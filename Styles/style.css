@@ -8,7 +8,7 @@ body {
 
 .text-box {
     font-family: 'Eczar', serif;
-    font-size: 150%;
+    font-size: 100%;
     line-height: 1.5em;
     color: white;
     background-color: rgba(20, 20, 20, 0.8);
@@ -58,7 +58,7 @@ body {
 
 .image-border {
     background-color: rgba(20, 20, 20, 0.9);
-    width: 400px;
+    width: 100px;
     padding: 10px;
     border: 1px solid grey;
 }
@@ -67,4 +67,18 @@ body {
     width: 256px;
     height: 122px;
     padding: 10px 50px 0px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.item1 {
+    height: 150px;
+}
+.item2 {
+    width: 100px;
+}
+.item4, .item5 {
+    width: 120px;
 }
